@@ -1,6 +1,6 @@
 // Playwright configuration
 
-/** @type {import {'@playwright/test'}.PlaywrightTestConfig} */
+/** @type {import{'@playwright/test'}.PlaywrightTestConfig}*/
 
 const config = {
     use: {
@@ -9,11 +9,11 @@ const config = {
     },
     projects: [
         //{name: "chromium", use: {browserName: "chromium"}},
-        {name: "firefox", use: {browserName: "firefox"}},
+        {name: "Firefox", use: {browserName: "firefox"}},
         //{name: "webkit", use: {browserName: "webkit"}},
     ],
-    testDir: "test",
-    timeout: 3000,
+    testDir: 'tests',
+    timeout: 30000,
     expect: {
         timeout: 5000,
     }, 
