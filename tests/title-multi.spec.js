@@ -1,5 +1,5 @@
 const {test,expect} = require('@playwright/test');
-
+//Se esta probando las paginas tools qa, malwarebytes y python
 const casos = [
     {name: "Prueba 1 tools qa", url: "https://www.toolsqa.com/", value: "Tools QA"},
     {name: "Prueba 2 tools qa", url: "https://www.toolsqa.com/", value: /QA/},
